@@ -22,10 +22,10 @@ function App() {
     <div className="App">
     {/* <h1 class="header"></h1> */}
      
-     {/* <Button/>    */}
+//      <Button/>   
       {/* <List/>    */}
        {/* <Employee/>  */}
-        <Static/>
+<Static/>
        <br/>
          <br/>
       
