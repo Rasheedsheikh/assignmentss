@@ -1,0 +1,19 @@
+import React from 'react'
+import { Details } from './Details'
+
+const data={
+    date:"28/10/2020",
+    Name:"Case Study",
+    title:"Amazon Gift Pay",
+    type:"PAY",
+    use:"Desktop-Mobile",
+    logo:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAACECAMAAABh9G/FAAAAn1BMVEX///8jHx73pR4AAAD3oAAcFxb4+PhUU1T3ngDw8PD19fUgHBsGAAAYExH3nAD3oxXj4+PJyckUDg1qamr5vm7++/b++O/96tTR0dHAwMBcW1uUk5M8OzutrKw1MjNiYmK3tbb+8+X6xoP84L785Mf4sEv706L6zZX4rD75uWafnp93d3dNTExIRUYtKyuAgID73LP5tVr2kgD4qjL5wXj1Mgx1AAAEpUlEQVR4nO2bi3KCOhCGCwnIPRQvqKDlIohoFQ++/7OdALVN8FJsDT0zJ990OhSC/ybZbHbT9uWFw+FwOBwOh8PhcDicv0fW1ApN/gPtab6d+4IBgLTfDb1ZnyZowRwAw5R0XRAEXZdMB4D3hdaPuOrtgSm0kYDgqT2oB0ugX4hX6MB/ZS0ub2+INyOwYKuu+sZN8QqQs1SXfeeuuiAYLMd/e7/vGNNnpx6AtrfpF47AbvrVJSUmAaAvBdByRYlZ93Oq82C3sFVNtRdL2h+AzUjel4hhN7xznFXfKI8AARv1KalCTfE7YZdgeGzkF4S8cyCfvJKzYm7ZyG+JOaYnWHMI9zOHbORzYBiOVAvpPrXByjti9KU5o813lnvDwR5UtGLrG7EDSgO2e79mz2atW8Me5a/wv5XX7OksoFyvH3ksm293guMYhkGGnR7k1eAw2OP80jEvtzzm8sHQAR8B4Aps5eUFuJLn9iX/6t9JNZnL55SX9S3vtbMt0zGqGGz2It9SNwF48xavtq2+9bHuZ5S6DubBuazrI+ppeyq6OMHXoz7kczLZ0p0p8agHeZlacXQ104M8VWM4dELXQ7pBpnoCoEu5AXPP13wqm6aOMuS9zlreJsdeolNNlXrWg/yAeka5hb5kccYypeTfqR4OqS2QSZFHVTK6ScrbrRqTRYk9pctbMujMaXlpx0Cemntq3eftIw8WNa5Kd9H5rDSCi/xDF57vfFQdV9X3zQyrh3YKUNk2f7r8i9c61ALCIfcG4OpRF3h+jT+9OFfCGf6NpFP3nz/8/p00T6LtMBhEvotjNUJuTrkA2LEIfMNb+mCOPfOz/zo4fP9ZP0DdXfWzRm56Xn+6wepc136/cqjqfATZRTM2EmifPTwPedsqsHQHzM87jFf135FYnSrWTIegKi9rJAMYQyLtWQCn7XThKo1Go1GUxmFnicn43lM7H777+/1+6Q8OAd3V2fxAqk+KYwnPiHFX+TL5pqms2ri0+e5XR0VpNcpIxMBTV/kYWsmqa+ObpP/AbDOKMBsRiiIadX7TLRXl+FsDxpOv6xESUdT91TCBCB7juz7wCDEUYfrIC5GCkJKkvzYgTF38vYCi4j70XownDCnWafULC8bx0VIsfLHGvX/w3clIwS4LYbl2f2TBeBWJ2OmVyuUyBLt73pmihPWSgUnkTr5vTjJZRRms/B2tK0ssEf7AkyeRVa9ZBK3ylHaOW2F6Eq1qtSMrqWe8UFD2uHr1SRulNqA2QUnW8f2JGIdxusENG6OVsmhub5DVOea1WG3ghwGVCfg6G60L1w3Dr9A8Hk9C143TU9K0aNpa2XndhPAHM/9lwBFB8QusoChQLLPkeNxUHI9JVqLqJiIaZemnu6wV9KDr0LiRoiCxBSKhn0BrQ3jauLQeW/NXiEfIQhcmXAHheE1HKzf7tTpmXIwyeDkIdLeVcnO5Qp4Vuyfu+ohnGcLLmahvJtGqe1bxM6q1dUqgVaFUVBewXg5P26E6meGu4qIo4lXIusccDofD4XA4HA6H859BU9X6XxhkVcPgHzRVa+718ndlsvohpmqyhr/kRh+b8hf/UcEh+RfW+VIRfKvocgAAAABJRU5ErkJggg=="
+}
+
+export const Payment = () => {
+  return (
+    <div>
+        <Details {...data}/>
+    </div>
+  )
+}
